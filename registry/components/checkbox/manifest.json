@@ -1,0 +1,29 @@
+{
+  "name": "checkbox",
+  "version": "1.0.0",
+  "description": "Accessible checkbox primitive with styled indicator.",
+  "files": [
+    "checkbox.tsx",
+    "checkbox.css"
+  ],
+  "dependencies": [
+    "@dsc/primitives@^0.1.0"
+  ],
+  "registryDependencies": [],
+  "tokens": [
+    "color.border.strong",
+    "color.button.primary.background"
+  ],
+  "requires": {
+    "react": ">=18.3",
+    "compiler": ">=0.1.0"
+  },
+  "accessibility": {
+    "keyboard": [
+      "Space toggles checked state"
+    ],
+    "notes": [
+      "Accessible names are consumer-provided where label text is not intrinsic."
+    ]
+  }
+}

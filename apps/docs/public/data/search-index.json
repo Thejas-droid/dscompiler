@@ -1,0 +1,740 @@
+[
+  {
+    "id": "accordion",
+    "kind": "component",
+    "text": "Accessible accordion registry item. color.border.default color.text.primary",
+    "title": "accordion"
+  },
+  {
+    "id": "button",
+    "kind": "component",
+    "text": "Token-integrated accessible button. color.button.primary.background color.button.primary.text radius.control space.controlX",
+    "title": "button"
+  },
+  {
+    "id": "checkbox",
+    "kind": "component",
+    "text": "Accessible checkbox primitive with styled indicator. color.border.strong color.button.primary.background",
+    "title": "checkbox"
+  },
+  {
+    "id": "color.amber.500",
+    "kind": "token",
+    "text": "color --ds-color-amber-500",
+    "title": "color.amber.500"
+  },
+  {
+    "id": "color.amber.600",
+    "kind": "token",
+    "text": "color --ds-color-amber-600",
+    "title": "color.amber.600"
+  },
+  {
+    "id": "color.background.brand",
+    "kind": "token",
+    "text": "color --ds-color-background-brand",
+    "title": "color.background.brand"
+  },
+  {
+    "id": "color.background.canvas",
+    "kind": "token",
+    "text": "color Application canvas --ds-color-background-canvas",
+    "title": "color.background.canvas"
+  },
+  {
+    "id": "color.background.overlay",
+    "kind": "token",
+    "text": "color --ds-color-background-overlay",
+    "title": "color.background.overlay"
+  },
+  {
+    "id": "color.background.subtle",
+    "kind": "token",
+    "text": "color --ds-color-background-subtle",
+    "title": "color.background.subtle"
+  },
+  {
+    "id": "color.background.surface",
+    "kind": "token",
+    "text": "color Primary surface --ds-color-background-surface",
+    "title": "color.background.surface"
+  },
+  {
+    "id": "color.blue.100",
+    "kind": "token",
+    "text": "color --ds-color-blue-100",
+    "title": "color.blue.100"
+  },
+  {
+    "id": "color.blue.50",
+    "kind": "token",
+    "text": "color --ds-color-blue-50",
+    "title": "color.blue.50"
+  },
+  {
+    "id": "color.blue.500",
+    "kind": "token",
+    "text": "color Secondary accent sampled from supplied Figma progress reference --ds-color-blue-500",
+    "title": "color.blue.500"
+  },
+  {
+    "id": "color.blue.600",
+    "kind": "token",
+    "text": "color --ds-color-blue-600",
+    "title": "color.blue.600"
+  },
+  {
+    "id": "color.blue.700",
+    "kind": "token",
+    "text": "color --ds-color-blue-700",
+    "title": "color.blue.700"
+  },
+  {
+    "id": "color.border.default",
+    "kind": "token",
+    "text": "color --ds-color-border-default",
+    "title": "color.border.default"
+  },
+  {
+    "id": "color.border.focus",
+    "kind": "token",
+    "text": "color --ds-color-border-focus",
+    "title": "color.border.focus"
+  },
+  {
+    "id": "color.border.strong",
+    "kind": "token",
+    "text": "color --ds-color-border-strong",
+    "title": "color.border.strong"
+  },
+  {
+    "id": "color.button.primary.background",
+    "kind": "token",
+    "text": "color --ds-color-button-primary-background",
+    "title": "color.button.primary.background"
+  },
+  {
+    "id": "color.button.primary.backgroundHover",
+    "kind": "token",
+    "text": "color --ds-color-button-primary-background-hover",
+    "title": "color.button.primary.backgroundHover"
+  },
+  {
+    "id": "color.button.primary.text",
+    "kind": "token",
+    "text": "color --ds-color-button-primary-text",
+    "title": "color.button.primary.text"
+  },
+  {
+    "id": "color.button.secondary.background",
+    "kind": "token",
+    "text": "color --ds-color-button-secondary-background",
+    "title": "color.button.secondary.background"
+  },
+  {
+    "id": "color.button.secondary.backgroundHover",
+    "kind": "token",
+    "text": "color --ds-color-button-secondary-background-hover",
+    "title": "color.button.secondary.backgroundHover"
+  },
+  {
+    "id": "color.button.secondary.text",
+    "kind": "token",
+    "text": "color --ds-color-button-secondary-text",
+    "title": "color.button.secondary.text"
+  },
+  {
+    "id": "color.green.500",
+    "kind": "token",
+    "text": "color --ds-color-green-500",
+    "title": "color.green.500"
+  },
+  {
+    "id": "color.green.600",
+    "kind": "token",
+    "text": "color --ds-color-green-600",
+    "title": "color.green.600"
+  },
+  {
+    "id": "color.neutral.0",
+    "kind": "token",
+    "text": "color --ds-color-neutral-0",
+    "title": "color.neutral.0"
+  },
+  {
+    "id": "color.neutral.100",
+    "kind": "token",
+    "text": "color --ds-color-neutral-100",
+    "title": "color.neutral.100"
+  },
+  {
+    "id": "color.neutral.200",
+    "kind": "token",
+    "text": "color --ds-color-neutral-200",
+    "title": "color.neutral.200"
+  },
+  {
+    "id": "color.neutral.300",
+    "kind": "token",
+    "text": "color --ds-color-neutral-300",
+    "title": "color.neutral.300"
+  },
+  {
+    "id": "color.neutral.400",
+    "kind": "token",
+    "text": "color --ds-color-neutral-400",
+    "title": "color.neutral.400"
+  },
+  {
+    "id": "color.neutral.50",
+    "kind": "token",
+    "text": "color --ds-color-neutral-50",
+    "title": "color.neutral.50"
+  },
+  {
+    "id": "color.neutral.500",
+    "kind": "token",
+    "text": "color --ds-color-neutral-500",
+    "title": "color.neutral.500"
+  },
+  {
+    "id": "color.neutral.600",
+    "kind": "token",
+    "text": "color --ds-color-neutral-600",
+    "title": "color.neutral.600"
+  },
+  {
+    "id": "color.neutral.700",
+    "kind": "token",
+    "text": "color --ds-color-neutral-700",
+    "title": "color.neutral.700"
+  },
+  {
+    "id": "color.neutral.800",
+    "kind": "token",
+    "text": "color --ds-color-neutral-800",
+    "title": "color.neutral.800"
+  },
+  {
+    "id": "color.neutral.900",
+    "kind": "token",
+    "text": "color --ds-color-neutral-900",
+    "title": "color.neutral.900"
+  },
+  {
+    "id": "color.neutral.950",
+    "kind": "token",
+    "text": "color --ds-color-neutral-950",
+    "title": "color.neutral.950"
+  },
+  {
+    "id": "color.purple.100",
+    "kind": "token",
+    "text": "color --ds-color-purple-100",
+    "title": "color.purple.100"
+  },
+  {
+    "id": "color.purple.200",
+    "kind": "token",
+    "text": "color --ds-color-purple-200",
+    "title": "color.purple.200"
+  },
+  {
+    "id": "color.purple.300",
+    "kind": "token",
+    "text": "color --ds-color-purple-300",
+    "title": "color.purple.300"
+  },
+  {
+    "id": "color.purple.400",
+    "kind": "token",
+    "text": "color --ds-color-purple-400",
+    "title": "color.purple.400"
+  },
+  {
+    "id": "color.purple.50",
+    "kind": "token",
+    "text": "color Lightest Jaldee purple --ds-color-purple-50",
+    "title": "color.purple.50"
+  },
+  {
+    "id": "color.purple.500",
+    "kind": "token",
+    "text": "color Brand accent sampled from supplied Figma thumbnail --ds-color-purple-500",
+    "title": "color.purple.500"
+  },
+  {
+    "id": "color.purple.600",
+    "kind": "token",
+    "text": "color --ds-color-purple-600",
+    "title": "color.purple.600"
+  },
+  {
+    "id": "color.purple.700",
+    "kind": "token",
+    "text": "color --ds-color-purple-700",
+    "title": "color.purple.700"
+  },
+  {
+    "id": "color.purple.800",
+    "kind": "token",
+    "text": "color --ds-color-purple-800",
+    "title": "color.purple.800"
+  },
+  {
+    "id": "color.purple.900",
+    "kind": "token",
+    "text": "color --ds-color-purple-900",
+    "title": "color.purple.900"
+  },
+  {
+    "id": "color.red.500",
+    "kind": "token",
+    "text": "color --ds-color-red-500",
+    "title": "color.red.500"
+  },
+  {
+    "id": "color.red.600",
+    "kind": "token",
+    "text": "color --ds-color-red-600",
+    "title": "color.red.600"
+  },
+  {
+    "id": "color.status.danger",
+    "kind": "token",
+    "text": "color --ds-color-status-danger",
+    "title": "color.status.danger"
+  },
+  {
+    "id": "color.status.success",
+    "kind": "token",
+    "text": "color --ds-color-status-success",
+    "title": "color.status.success"
+  },
+  {
+    "id": "color.status.warning",
+    "kind": "token",
+    "text": "color --ds-color-status-warning",
+    "title": "color.status.warning"
+  },
+  {
+    "id": "color.text.brand",
+    "kind": "token",
+    "text": "color --ds-color-text-brand",
+    "title": "color.text.brand"
+  },
+  {
+    "id": "color.text.danger",
+    "kind": "token",
+    "text": "color --ds-color-text-danger",
+    "title": "color.text.danger"
+  },
+  {
+    "id": "color.text.inverse",
+    "kind": "token",
+    "text": "color --ds-color-text-inverse",
+    "title": "color.text.inverse"
+  },
+  {
+    "id": "color.text.muted",
+    "kind": "token",
+    "text": "color --ds-color-text-muted",
+    "title": "color.text.muted"
+  },
+  {
+    "id": "color.text.primary",
+    "kind": "token",
+    "text": "color --ds-color-text-primary",
+    "title": "color.text.primary"
+  },
+  {
+    "id": "color.text.secondary",
+    "kind": "token",
+    "text": "color --ds-color-text-secondary",
+    "title": "color.text.secondary"
+  },
+  {
+    "id": "combobox",
+    "kind": "component",
+    "text": "Accessible combobox registry item. color.background.surface color.border.default color.text.primary",
+    "title": "combobox"
+  },
+  {
+    "id": "dialog",
+    "kind": "component",
+    "text": "Modal dialog with focus trap, Escape handling and focus restoration. color.background.surface color.text.primary color.text.secondary shadow.overlay radius.panel",
+    "title": "dialog"
+  },
+  {
+    "id": "dropdown-menu",
+    "kind": "component",
+    "text": "Accessible dropdown-menu registry item. color.background.surface shadow.popover color.text.primary",
+    "title": "dropdown-menu"
+  },
+  {
+    "id": "duration.fast",
+    "kind": "token",
+    "text": "duration --ds-duration-fast",
+    "title": "duration.fast"
+  },
+  {
+    "id": "duration.normal",
+    "kind": "token",
+    "text": "duration --ds-duration-normal",
+    "title": "duration.normal"
+  },
+  {
+    "id": "duration.slow",
+    "kind": "token",
+    "text": "duration --ds-duration-slow",
+    "title": "duration.slow"
+  },
+  {
+    "id": "easing.entrance",
+    "kind": "token",
+    "text": "cubicBezier --ds-easing-entrance",
+    "title": "easing.entrance"
+  },
+  {
+    "id": "easing.standard",
+    "kind": "token",
+    "text": "cubicBezier --ds-easing-standard",
+    "title": "easing.standard"
+  },
+  {
+    "id": "font.family.mono",
+    "kind": "token",
+    "text": "fontFamily --ds-font-family-mono",
+    "title": "font.family.mono"
+  },
+  {
+    "id": "font.family.sans",
+    "kind": "token",
+    "text": "fontFamily --ds-font-family-sans",
+    "title": "font.family.sans"
+  },
+  {
+    "id": "font.lineHeight.normal",
+    "kind": "token",
+    "text": "lineHeight --ds-font-line-height-normal",
+    "title": "font.lineHeight.normal"
+  },
+  {
+    "id": "font.lineHeight.relaxed",
+    "kind": "token",
+    "text": "lineHeight --ds-font-line-height-relaxed",
+    "title": "font.lineHeight.relaxed"
+  },
+  {
+    "id": "font.lineHeight.tight",
+    "kind": "token",
+    "text": "lineHeight --ds-font-line-height-tight",
+    "title": "font.lineHeight.tight"
+  },
+  {
+    "id": "font.size.2xl",
+    "kind": "token",
+    "text": "fontSize --ds-font-size-2xl",
+    "title": "font.size.2xl"
+  },
+  {
+    "id": "font.size.lg",
+    "kind": "token",
+    "text": "fontSize --ds-font-size-lg",
+    "title": "font.size.lg"
+  },
+  {
+    "id": "font.size.md",
+    "kind": "token",
+    "text": "fontSize --ds-font-size-md",
+    "title": "font.size.md"
+  },
+  {
+    "id": "font.size.sm",
+    "kind": "token",
+    "text": "fontSize --ds-font-size-sm",
+    "title": "font.size.sm"
+  },
+  {
+    "id": "font.size.xl",
+    "kind": "token",
+    "text": "fontSize --ds-font-size-xl",
+    "title": "font.size.xl"
+  },
+  {
+    "id": "font.size.xs",
+    "kind": "token",
+    "text": "fontSize --ds-font-size-xs",
+    "title": "font.size.xs"
+  },
+  {
+    "id": "font.weight.bold",
+    "kind": "token",
+    "text": "fontWeight --ds-font-weight-bold",
+    "title": "font.weight.bold"
+  },
+  {
+    "id": "font.weight.medium",
+    "kind": "token",
+    "text": "fontWeight --ds-font-weight-medium",
+    "title": "font.weight.medium"
+  },
+  {
+    "id": "font.weight.regular",
+    "kind": "token",
+    "text": "fontWeight --ds-font-weight-regular",
+    "title": "font.weight.regular"
+  },
+  {
+    "id": "font.weight.semibold",
+    "kind": "token",
+    "text": "fontWeight --ds-font-weight-semibold",
+    "title": "font.weight.semibold"
+  },
+  {
+    "id": "motion.easing",
+    "kind": "token",
+    "text": "cubicBezier --ds-motion-easing",
+    "title": "motion.easing"
+  },
+  {
+    "id": "motion.fast",
+    "kind": "token",
+    "text": "duration --ds-motion-fast",
+    "title": "motion.fast"
+  },
+  {
+    "id": "motion.normal",
+    "kind": "token",
+    "text": "duration --ds-motion-normal",
+    "title": "motion.normal"
+  },
+  {
+    "id": "opacity.disabled",
+    "kind": "token",
+    "text": "opacity --ds-opacity-disabled",
+    "title": "opacity.disabled"
+  },
+  {
+    "id": "opacity.overlay",
+    "kind": "token",
+    "text": "opacity --ds-opacity-overlay",
+    "title": "opacity.overlay"
+  },
+  {
+    "id": "popover",
+    "kind": "component",
+    "text": "Accessible popover registry item. color.background.surface shadow.popover radius.panel",
+    "title": "popover"
+  },
+  {
+    "id": "radio-group",
+    "kind": "component",
+    "text": "Accessible radio-group registry item. color.border.strong color.button.primary.background",
+    "title": "radio-group"
+  },
+  {
+    "id": "radius.control",
+    "kind": "token",
+    "text": "dimension --ds-radius-control",
+    "title": "radius.control"
+  },
+  {
+    "id": "radius.full",
+    "kind": "token",
+    "text": "dimension --ds-radius-full",
+    "title": "radius.full"
+  },
+  {
+    "id": "radius.lg",
+    "kind": "token",
+    "text": "dimension --ds-radius-lg",
+    "title": "radius.lg"
+  },
+  {
+    "id": "radius.md",
+    "kind": "token",
+    "text": "dimension --ds-radius-md",
+    "title": "radius.md"
+  },
+  {
+    "id": "radius.none",
+    "kind": "token",
+    "text": "dimension --ds-radius-none",
+    "title": "radius.none"
+  },
+  {
+    "id": "radius.panel",
+    "kind": "token",
+    "text": "dimension --ds-radius-panel",
+    "title": "radius.panel"
+  },
+  {
+    "id": "radius.pill",
+    "kind": "token",
+    "text": "dimension --ds-radius-pill",
+    "title": "radius.pill"
+  },
+  {
+    "id": "radius.sm",
+    "kind": "token",
+    "text": "dimension --ds-radius-sm",
+    "title": "radius.sm"
+  },
+  {
+    "id": "radius.xl",
+    "kind": "token",
+    "text": "dimension --ds-radius-xl",
+    "title": "radius.xl"
+  },
+  {
+    "id": "select",
+    "kind": "component",
+    "text": "Accessible select registry item. color.background.surface color.border.default color.text.primary",
+    "title": "select"
+  },
+  {
+    "id": "shadow.lg",
+    "kind": "token",
+    "text": "shadow --ds-shadow-lg",
+    "title": "shadow.lg"
+  },
+  {
+    "id": "shadow.md",
+    "kind": "token",
+    "text": "shadow --ds-shadow-md",
+    "title": "shadow.md"
+  },
+  {
+    "id": "shadow.overlay",
+    "kind": "token",
+    "text": "shadow --ds-shadow-overlay",
+    "title": "shadow.overlay"
+  },
+  {
+    "id": "shadow.popover",
+    "kind": "token",
+    "text": "shadow --ds-shadow-popover",
+    "title": "shadow.popover"
+  },
+  {
+    "id": "shadow.sm",
+    "kind": "token",
+    "text": "shadow --ds-shadow-sm",
+    "title": "shadow.sm"
+  },
+  {
+    "id": "space.controlX",
+    "kind": "token",
+    "text": "dimension --ds-space-control-x",
+    "title": "space.controlX"
+  },
+  {
+    "id": "space.controlY",
+    "kind": "token",
+    "text": "dimension --ds-space-control-y",
+    "title": "space.controlY"
+  },
+  {
+    "id": "space.panel",
+    "kind": "token",
+    "text": "dimension --ds-space-panel",
+    "title": "space.panel"
+  },
+  {
+    "id": "space.stack",
+    "kind": "token",
+    "text": "dimension --ds-space-stack",
+    "title": "space.stack"
+  },
+  {
+    "id": "spacing.0",
+    "kind": "token",
+    "text": "dimension --ds-spacing-0",
+    "title": "spacing.0"
+  },
+  {
+    "id": "spacing.1",
+    "kind": "token",
+    "text": "dimension --ds-spacing-1",
+    "title": "spacing.1"
+  },
+  {
+    "id": "spacing.10",
+    "kind": "token",
+    "text": "dimension --ds-spacing-10",
+    "title": "spacing.10"
+  },
+  {
+    "id": "spacing.12",
+    "kind": "token",
+    "text": "dimension --ds-spacing-12",
+    "title": "spacing.12"
+  },
+  {
+    "id": "spacing.16",
+    "kind": "token",
+    "text": "dimension --ds-spacing-16",
+    "title": "spacing.16"
+  },
+  {
+    "id": "spacing.2",
+    "kind": "token",
+    "text": "dimension --ds-spacing-2",
+    "title": "spacing.2"
+  },
+  {
+    "id": "spacing.3",
+    "kind": "token",
+    "text": "dimension --ds-spacing-3",
+    "title": "spacing.3"
+  },
+  {
+    "id": "spacing.4",
+    "kind": "token",
+    "text": "dimension --ds-spacing-4",
+    "title": "spacing.4"
+  },
+  {
+    "id": "spacing.5",
+    "kind": "token",
+    "text": "dimension --ds-spacing-5",
+    "title": "spacing.5"
+  },
+  {
+    "id": "spacing.6",
+    "kind": "token",
+    "text": "dimension --ds-spacing-6",
+    "title": "spacing.6"
+  },
+  {
+    "id": "spacing.8",
+    "kind": "token",
+    "text": "dimension --ds-spacing-8",
+    "title": "spacing.8"
+  },
+  {
+    "id": "switch",
+    "kind": "component",
+    "text": "Accessible switch with semantic token styling. color.border.strong color.button.primary.background",
+    "title": "switch"
+  },
+  {
+    "id": "tabs",
+    "kind": "component",
+    "text": "Keyboard-navigable tab set. color.border.default color.text.secondary color.text.brand color.border.focus",
+    "title": "tabs"
+  },
+  {
+    "id": "toast",
+    "kind": "component",
+    "text": "Accessible toast registry item. color.background.surface shadow.overlay color.text.primary",
+    "title": "toast"
+  },
+  {
+    "id": "tooltip",
+    "kind": "component",
+    "text": "Accessible tooltip registry item. color.background.overlay color.text.inverse radius.control",
+    "title": "tooltip"
+  }
+]

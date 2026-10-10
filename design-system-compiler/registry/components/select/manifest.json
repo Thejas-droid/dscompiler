@@ -1,0 +1,30 @@
+{
+  "name": "select",
+  "version": "1.0.0",
+  "description": "Accessible select registry item.",
+  "files": [
+    "select.tsx"
+  ],
+  "dependencies": [
+    "@dsc/primitives@^0.1.0"
+  ],
+  "registryDependencies": [],
+  "tokens": [
+    "color.background.surface",
+    "color.border.default",
+    "color.text.primary"
+  ],
+  "requires": {
+    "react": ">=18.3",
+    "compiler": ">=0.1.0"
+  },
+  "accessibility": {
+    "keyboard": [
+      "ArrowUp / ArrowDown moves options",
+      "Escape closes"
+    ],
+    "notes": [
+      "Accessible names are consumer-provided where label text is not intrinsic."
+    ]
+  }
+}

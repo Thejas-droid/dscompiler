@@ -1,0 +1,7 @@
+{
+  "tokens": [],
+  "registry": "../../../registry/components",
+  "outDir": "./dist",
+  "css": { "prefix": "ds" },
+  "components": {}
+}

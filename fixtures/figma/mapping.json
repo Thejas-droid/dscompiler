@@ -1,0 +1,9 @@
+{
+  "variables":{
+    "variable:brand":{"path":"color.brand","type":"color"},
+    "variable:action":{"path":"color.action","type":"color"},
+    "variable:space":{"path":"space.md","type":"dimension","unit":"px"}
+  },
+  "modes":{"collection:care":{"mode:light":"light","mode:dark":"dark"}},
+  "ignoreVariables":[]
+}

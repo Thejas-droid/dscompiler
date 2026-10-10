@@ -1,0 +1,32 @@
+{
+  "name": "@dsc/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "ds": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "test": "vitest run --passWithNoTests",
+    "lint": "tsc --noEmit",
+    "ds": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "@dsc/compiler": "workspace:*",
+    "typescript": "^5.9.2",
+    "@dsc/enforcer": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.6",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$name": "jaldee",
+  "$extends": "light",
+  "color": {
+    "background": {
+      "brand": { "$type": "color", "$value": "{color.purple.500}" }
+    },
+    "button": {
+      "primary": {
+        "background": { "$type": "color", "$value": "{color.purple.500}" },
+        "backgroundHover": { "$type": "color", "$value": "{color.purple.600}" }
+      }
+    },
+    "border": {
+      "focus": { "$type": "color", "$value": "{color.purple.500}" }
+    }
+  }
+}

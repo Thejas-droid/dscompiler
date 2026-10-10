@@ -1,0 +1,12 @@
+{
+  "tokens": ["./design-system/tokens.json"],
+  "outDir": "./.design-system/generated",
+  "css": { "prefix": "care" },
+  "docs": { "enabled": false },
+  "enforcement": {
+    "contract": "./design-system/contract.json",
+    "include": ["src/**"],
+    "exclude": ["src/design-system/**"],
+    "mode": "strict"
+  }
+}

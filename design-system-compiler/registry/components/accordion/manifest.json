@@ -1,0 +1,28 @@
+{
+  "name": "accordion",
+  "version": "1.0.0",
+  "description": "Accessible accordion registry item.",
+  "files": [
+    "accordion.tsx"
+  ],
+  "dependencies": [
+    "@dsc/primitives@^0.1.0"
+  ],
+  "registryDependencies": [],
+  "tokens": [
+    "color.border.default",
+    "color.text.primary"
+  ],
+  "requires": {
+    "react": ">=18.3",
+    "compiler": ">=0.1.0"
+  },
+  "accessibility": {
+    "keyboard": [
+      "Enter / Space toggles section"
+    ],
+    "notes": [
+      "Accessible names are consumer-provided where label text is not intrinsic."
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@dsc/docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "predev": "node ../../scripts/copy-docs-data.mjs", "dev": "vite", "prebuild": "node ../../scripts/copy-docs-data.mjs", "build": "vite build", "test": "vitest run --passWithNoTests", "lint": "tsc --noEmit" },
+  "dependencies": { "@dsc/react": "workspace:*", "react": "^19.1.1", "react-dom": "^19.1.1" },
+  "devDependencies": { "@types/react": "^19.1.16", "@types/react-dom": "^19.1.9", "@vitejs/plugin-react": "^5.0.2", "typescript": "^5.9.2", "vite": "^7.1.7", "vitest": "^3.2.4" }
+}

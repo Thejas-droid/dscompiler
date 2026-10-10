@@ -1,0 +1,27 @@
+{
+  "$name": "dark",
+  "color": {
+    "background": {
+      "canvas": { "$type": "color", "$value": "{color.neutral.950}" },
+      "surface": { "$type": "color", "$value": "{color.neutral.900}" },
+      "subtle": { "$type": "color", "$value": "{color.neutral.800}" }
+    },
+    "text": {
+      "primary": { "$type": "color", "$value": "{color.neutral.50}" },
+      "secondary": { "$type": "color", "$value": "{color.neutral.300}" },
+      "inverse": { "$type": "color", "$value": "{color.neutral.950}" },
+      "brand": { "$type": "color", "$value": "{color.purple.300}" }
+    },
+    "border": {
+      "default": { "$type": "color", "$value": "{color.neutral.700}" },
+      "strong": { "$type": "color", "$value": "{color.neutral.600}" }
+    },
+    "button": {
+      "secondary": {
+        "background": { "$type": "color", "$value": "{color.neutral.800}" },
+        "backgroundHover": { "$type": "color", "$value": "{color.neutral.700}" },
+        "text": { "$type": "color", "$value": "{color.neutral.50}" }
+      }
+    }
+  }
+}

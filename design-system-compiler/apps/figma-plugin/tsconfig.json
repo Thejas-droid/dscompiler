@@ -1,0 +1,1 @@
+{"extends":"../../tsconfig.base.json","compilerOptions":{"module":"ESNext","moduleResolution":"Bundler","jsx":"react-jsx","noEmit":true,"types":["@figma/plugin-typings","vite/client"]},"include":["src"]}

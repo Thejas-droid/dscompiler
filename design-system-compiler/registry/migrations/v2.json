@@ -1,0 +1,12 @@
+{
+  "version": "v2",
+  "tokenRenames": {
+    "color.text.muted": "color.text.secondary"
+  },
+  "propRenames": [
+    { "component": "Button", "from": "kind", "to": "variant" }
+  ],
+  "importRenames": [
+    { "from": "@dsc/ui", "to": "@dsc/react" }
+  ]
+}

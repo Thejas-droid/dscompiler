@@ -1,0 +1,13 @@
+{
+  "$name": "light",
+  "color": {
+    "background": {
+      "canvas": { "$type": "color", "$value": "{color.neutral.50}" },
+      "surface": { "$type": "color", "$value": "{color.neutral.0}" }
+    },
+    "text": {
+      "primary": { "$type": "color", "$value": "{color.neutral.900}" },
+      "secondary": { "$type": "color", "$value": "{color.neutral.600}" }
+    }
+  }
+}

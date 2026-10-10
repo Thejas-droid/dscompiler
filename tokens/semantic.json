@@ -1,0 +1,65 @@
+{
+  "color": {
+    "background": {
+      "canvas": { "$type": "color", "$value": "{color.neutral.50}", "$description": "Application canvas" },
+      "surface": { "$type": "color", "$value": "{color.neutral.0}", "$description": "Primary surface" },
+      "subtle": { "$type": "color", "$value": "{color.neutral.100}" },
+      "brand": { "$type": "color", "$value": "{color.purple.500}" },
+      "overlay": { "$type": "color", "$value": "{color.neutral.950}" }
+    },
+    "text": {
+      "primary": { "$type": "color", "$value": "{color.neutral.900}" },
+      "secondary": { "$type": "color", "$value": "{color.neutral.600}" },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.neutral.500}",
+        "$deprecated": { "message": "Use color.text.secondary", "replacement": "color.text.secondary", "since": "2.0.0" }
+      },
+      "inverse": { "$type": "color", "$value": "{color.neutral.0}" },
+      "brand": { "$type": "color", "$value": "{color.purple.700}" },
+      "danger": { "$type": "color", "$value": "{color.red.600}" }
+    },
+    "border": {
+      "default": { "$type": "color", "$value": "{color.neutral.200}" },
+      "strong": { "$type": "color", "$value": "{color.neutral.300}" },
+      "focus": { "$type": "color", "$value": "{color.purple.500}" }
+    },
+    "button": {
+      "primary": {
+        "background": { "$type": "color", "$value": "{color.purple.600}" },
+        "backgroundHover": { "$type": "color", "$value": "{color.purple.700}" },
+        "text": { "$type": "color", "$value": "{color.neutral.0}" }
+      },
+      "secondary": {
+        "background": { "$type": "color", "$value": "{color.neutral.100}" },
+        "backgroundHover": { "$type": "color", "$value": "{color.neutral.200}" },
+        "text": { "$type": "color", "$value": "{color.neutral.900}" }
+      }
+    },
+    "status": {
+      "success": { "$type": "color", "$value": "{color.green.600}" },
+      "warning": { "$type": "color", "$value": "{color.amber.600}" },
+      "danger": { "$type": "color", "$value": "{color.red.600}" }
+    }
+  },
+  "space": {
+    "controlX": { "$type": "dimension", "$value": "{spacing.4}" },
+    "controlY": { "$type": "dimension", "$value": "{spacing.2}" },
+    "panel": { "$type": "dimension", "$value": "{spacing.6}" },
+    "stack": { "$type": "dimension", "$value": "{spacing.4}" }
+  },
+  "radius": {
+    "control": { "$type": "dimension", "$value": "{radius.md}" },
+    "panel": { "$type": "dimension", "$value": "{radius.lg}" },
+    "pill": { "$type": "dimension", "$value": "{radius.full}" }
+  },
+  "shadow": {
+    "overlay": { "$type": "shadow", "$value": "{shadow.lg}" },
+    "popover": { "$type": "shadow", "$value": "{shadow.md}" }
+  },
+  "motion": {
+    "fast": { "$type": "duration", "$value": "{duration.fast}" },
+    "normal": { "$type": "duration", "$value": "{duration.normal}" },
+    "easing": { "$type": "cubicBezier", "$value": "{easing.standard}" }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "tokens": ["./tokens/primitives.json", "./tokens/semantic.json"],
+  "themes": "./tokens/themes",
+  "registry": "./registry/components",
+  "outDir": "./dist",
+  "css": { "prefix": "ds", "separator": "-", "splitByCategory": true },
+  "docs": { "enabled": true },
+  "contrastPairs": [
+    ["color.text.primary", "color.background.surface", 4.5],
+    ["color.button.primary.text", "color.button.primary.background", 4.5]
+  ]
+}

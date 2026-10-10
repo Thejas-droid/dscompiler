@@ -1,0 +1,10 @@
+{
+  "schemaVersion":1,
+  "collections":[{"id":"collection:care","name":"CareFlow","defaultModeId":"mode:light","modes":[{"id":"mode:light","name":"Light"},{"id":"mode:dark","name":"Dark"}]}],
+  "variables":[
+    {"id":"variable:brand","name":"Brand","collectionId":"collection:care","resolvedType":"COLOR","valuesByMode":{"mode:light":{"r":0.043,"g":0.42,"b":0.345,"a":1},"mode:dark":{"r":0.3,"g":0.8,"b":0.65,"a":1}},"description":"Approved action color","scopes":["ALL_FILLS"]},
+    {"id":"variable:action","name":"Action","collectionId":"collection:care","resolvedType":"COLOR","valuesByMode":{"mode:light":{"type":"VARIABLE_ALIAS","id":"variable:brand"},"mode:dark":{"type":"VARIABLE_ALIAS","id":"variable:brand"}},"scopes":["ALL_FILLS"]},
+    {"id":"variable:space","name":"Space / Medium","collectionId":"collection:care","resolvedType":"FLOAT","valuesByMode":{"mode:light":16,"mode:dark":16},"scopes":["GAP"]}
+  ],
+  "components":[{"id":"component:button","name":"Button","type":"COMPONENT_SET","properties":{"Variant":{"type":"VARIANT","defaultValue":"Primary","variantOptions":["Primary","Secondary"]}}}]
+}

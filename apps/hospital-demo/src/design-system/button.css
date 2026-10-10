@@ -1,0 +1,29 @@
+.care-button {
+  font: inherit;
+  font-weight: var(--care-font-medium);
+  border: 1px solid var(--care-color-brand);
+  border-radius: var(--care-radius-sm);
+  padding: var(--care-space-sm) var(--care-space-md);
+  cursor: pointer;
+  min-height: 44px;
+  transition: filter 0.15s;
+}
+.care-button-primary {
+  background: var(--care-color-brand);
+  color: var(--care-color-surface);
+}
+.care-button-secondary {
+  background: var(--care-color-surface);
+  color: var(--care-color-brand);
+}
+.care-button:hover {
+  filter: brightness(0.93);
+}
+.care-button:focus-visible {
+  outline: 3px solid var(--care-color-brand);
+  outline-offset: 3px;
+}
+.care-button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}

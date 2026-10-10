@@ -1,0 +1,29 @@
+{
+  "name": "radio-group",
+  "version": "1.0.0",
+  "description": "Accessible radio-group registry item.",
+  "files": [
+    "radio-group.tsx"
+  ],
+  "dependencies": [
+    "@dsc/primitives@^0.1.0"
+  ],
+  "registryDependencies": [],
+  "tokens": [
+    "color.border.strong",
+    "color.button.primary.background"
+  ],
+  "requires": {
+    "react": ">=18.3",
+    "compiler": ">=0.1.0"
+  },
+  "accessibility": {
+    "keyboard": [
+      "Arrow keys change selection",
+      "Home / End jumps"
+    ],
+    "notes": [
+      "Accessible names are consumer-provided where label text is not intrinsic."
+    ]
+  }
+}

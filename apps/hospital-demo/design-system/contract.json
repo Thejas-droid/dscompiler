@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "name": "CareFlow approved design system",
+  "properties": {
+    "color": {
+      "types": ["color"],
+      "allow": ["inherit"]
+    },
+    "background": {
+      "types": ["color"],
+      "allow": ["transparent", "none"]
+    },
+    "background-color": {
+      "types": ["color"],
+      "allow": ["transparent"]
+    },
+    "border-color": {
+      "types": ["color"]
+    },
+    "border-radius": {
+      "types": ["dimension"],
+      "allow": [0]
+    },
+    "padding": {
+      "types": ["dimension"],
+      "allow": [0]
+    },
+    "padding-top": {
+      "types": ["dimension"],
+      "allow": [0]
+    },
+    "padding-bottom": {
+      "types": ["dimension"],
+      "allow": [0]
+    },
+    "margin": {
+      "types": ["dimension"],
+      "allow": [0, "auto", "0 auto"]
+    },
+    "margin-top": {
+      "types": ["dimension"],
+      "allow": [0, "auto"]
+    },
+    "margin-bottom": {
+      "types": ["dimension"],
+      "allow": [0]
+    },
+    "gap": {
+      "types": ["dimension"],
+      "allow": [0]
+    },
+    "font-family": {
+      "types": ["fontFamily"],
+      "allow": ["inherit"]
+    },
+    "font-size": {
+      "types": ["fontSize"],
+      "allow": ["inherit"]
+    },
+    "font-weight": {
+      "types": ["fontWeight"],
+      "allow": ["inherit"]
+    },
+    "line-height": {
+      "types": ["lineHeight"],
+      "allow": ["inherit"]
+    },
+    "box-shadow": {
+      "types": ["shadow"],
+      "allow": ["none"]
+    }
+  },
+  "components": [
+    {
+      "from": "./design-system/Button",
+      "name": "Button",
+      "replaces": ["button"],
+      "variants": {
+        "variant": ["primary", "secondary"]
+      },
+      "forbidProps": ["style", "className"]
+    }
+  ],
+  "forbiddenImports": ["@unapproved-ui/**"],
+  "rules": {
+    "DS_UNSUPPORTED_SOURCE": "error"
+  },
+  "exceptions": [],
+  "implementation": ["src/design-system/**"]
+}

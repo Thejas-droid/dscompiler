@@ -1,0 +1,396 @@
+[
+  {
+    "accessibility": {
+      "keyboard": [
+        "Enter / Space toggles section"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Accessible accordion registry item.",
+    "files": [
+      "accordion.tsx"
+    ],
+    "name": "accordion",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.border.default",
+      "color.text.primary"
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "Enter / Space activates"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Token-integrated accessible button.",
+    "files": [
+      "button.tsx",
+      "button.css"
+    ],
+    "name": "button",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.button.primary.background",
+      "color.button.primary.text",
+      "radius.control",
+      "space.controlX"
+    ],
+    "version": "1.2.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "Space toggles checked state"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Accessible checkbox primitive with styled indicator.",
+    "files": [
+      "checkbox.tsx",
+      "checkbox.css"
+    ],
+    "name": "checkbox",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.border.strong",
+      "color.button.primary.background"
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "ArrowUp / ArrowDown moves options",
+        "Enter selects",
+        "Escape closes"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Accessible combobox registry item.",
+    "files": [
+      "combobox.tsx"
+    ],
+    "name": "combobox",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.background.surface",
+      "color.border.default",
+      "color.text.primary"
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "Tab / Shift+Tab cycles within dialog",
+        "Escape closes dialog",
+        "Focus returns to trigger"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Modal dialog with focus trap, Escape handling and focus restoration.",
+    "files": [
+      "dialog.tsx",
+      "dialog.css"
+    ],
+    "name": "dialog",
+    "registryDependencies": [
+      "button"
+    ],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.background.surface",
+      "color.text.primary",
+      "color.text.secondary",
+      "shadow.overlay",
+      "radius.panel"
+    ],
+    "version": "1.3.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "ArrowUp / ArrowDown moves items",
+        "Home / End jumps",
+        "Escape closes"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Accessible dropdown-menu registry item.",
+    "files": [
+      "dropdown-menu.tsx"
+    ],
+    "name": "dropdown-menu",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.background.surface",
+      "shadow.popover",
+      "color.text.primary"
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "Escape closes and returns focus"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Accessible popover registry item.",
+    "files": [
+      "popover.tsx"
+    ],
+    "name": "popover",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.background.surface",
+      "shadow.popover",
+      "radius.panel"
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "Arrow keys change selection",
+        "Home / End jumps"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Accessible radio-group registry item.",
+    "files": [
+      "radio-group.tsx"
+    ],
+    "name": "radio-group",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.border.strong",
+      "color.button.primary.background"
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "ArrowUp / ArrowDown moves options",
+        "Escape closes"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Accessible select registry item.",
+    "files": [
+      "select.tsx"
+    ],
+    "name": "select",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.background.surface",
+      "color.border.default",
+      "color.text.primary"
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "Space / Enter toggles state"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Accessible switch with semantic token styling.",
+    "files": [
+      "switch.tsx",
+      "switch.css"
+    ],
+    "name": "switch",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.border.strong",
+      "color.button.primary.background"
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "ArrowLeft / ArrowRight moves tabs",
+        "Home / End moves to first / last tab"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Keyboard-navigable tab set.",
+    "files": [
+      "tabs.tsx",
+      "tabs.css"
+    ],
+    "name": "tabs",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.border.default",
+      "color.text.secondary",
+      "color.text.brand",
+      "color.border.focus"
+    ],
+    "version": "1.1.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "Announcements use aria-live polite"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Accessible toast registry item.",
+    "files": [
+      "toast.tsx"
+    ],
+    "name": "toast",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.background.surface",
+      "shadow.overlay",
+      "color.text.primary"
+    ],
+    "version": "1.0.0"
+  },
+  {
+    "accessibility": {
+      "keyboard": [
+        "Focus or hover shows tooltip",
+        "Blur or pointer leave hides tooltip"
+      ],
+      "notes": [
+        "Accessible names are consumer-provided where label text is not intrinsic."
+      ]
+    },
+    "dependencies": [
+      "@dsc/primitives@^0.1.0"
+    ],
+    "description": "Accessible tooltip registry item.",
+    "files": [
+      "tooltip.tsx"
+    ],
+    "name": "tooltip",
+    "registryDependencies": [],
+    "requires": {
+      "compiler": ">=0.1.0",
+      "react": ">=18.3"
+    },
+    "tokens": [
+      "color.background.overlay",
+      "color.text.inverse",
+      "radius.control"
+    ],
+    "version": "1.0.0"
+  }
+]

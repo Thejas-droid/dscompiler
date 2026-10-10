@@ -1,0 +1,1 @@
+import{copyFile}from"node:fs/promises";import path from"node:path";const root=process.cwd().endsWith("apps/playground")?path.resolve(process.cwd(),"../.."):process.cwd();try{await copyFile(path.join(root,"dist/tokens.css"),path.join(root,"apps/playground/src/generated.css"))}catch{console.warn("dist/tokens.css not found; run `pnpm ds build` first.")}

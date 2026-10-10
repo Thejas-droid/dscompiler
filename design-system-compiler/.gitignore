@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.turbo/
+.dsc-cache.json
+playwright-report/
+test-results/
+*.log
+.DS_Store

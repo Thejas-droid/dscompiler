@@ -1,0 +1,2 @@
+import * as React from "react";import * as T from "@dsc/primitives";import "./tabs.css";
+export const Tabs={Root:T.TabsRoot,List:(p:React.ComponentProps<typeof T.TabsList>)=><T.TabsList {...p} className={["ds-tabs-list",p.className].filter(Boolean).join(" ")}/>,Trigger:(p:React.ComponentProps<typeof T.TabsTrigger>)=><T.TabsTrigger {...p} className={["ds-tabs-trigger",p.className].filter(Boolean).join(" ")}/>,Content:(p:React.ComponentProps<typeof T.TabsContent>)=><T.TabsContent {...p} className={["ds-tabs-content",p.className].filter(Boolean).join(" ")}/>};

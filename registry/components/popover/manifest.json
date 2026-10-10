@@ -1,0 +1,29 @@
+{
+  "name": "popover",
+  "version": "1.0.0",
+  "description": "Accessible popover registry item.",
+  "files": [
+    "popover.tsx"
+  ],
+  "dependencies": [
+    "@dsc/primitives@^0.1.0"
+  ],
+  "registryDependencies": [],
+  "tokens": [
+    "color.background.surface",
+    "shadow.popover",
+    "radius.panel"
+  ],
+  "requires": {
+    "react": ">=18.3",
+    "compiler": ">=0.1.0"
+  },
+  "accessibility": {
+    "keyboard": [
+      "Escape closes and returns focus"
+    ],
+    "notes": [
+      "Accessible names are consumer-provided where label text is not intrinsic."
+    ]
+  }
+}
